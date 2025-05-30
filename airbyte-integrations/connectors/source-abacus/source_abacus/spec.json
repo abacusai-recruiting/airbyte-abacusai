@@ -1,0 +1,18 @@
+{
+  "documentationUrl": "https://docs.airbyte.com/integrations/sources/abacus",
+  "connectionSpecification": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Abacus AI Spec",
+    "type": "object",
+    "required": ["abacus_api_key"],
+    "properties": {
+      "abacus_api_key": {
+        "title": "API Key",
+        "type": "string",
+        "description": "The Abacus AI API Key to use for authentication. See the <a href=\"https://docs.airbyte.com/integrations/sources/abacus\">docs</a> for more information on how to obtain this key.",
+        "order": 0,
+        "airbyte_secret": true
+      }
+    }
+  }
+}
